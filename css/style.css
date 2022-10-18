@@ -1,21 +1,20 @@
 :root{
-{Montserrat: 'Montserrat', sans-serif;}
-{Nunito: 'Nunito', sans-serif;}
-.Copia-de-Soft-Autumn---Pink-2-1-hex { color: #FDC0C7 }
-.Copia-de-Soft-Autumn---Pink-2-2-hex { color: #FFA6B2; }
-.Copia-de-Soft-Autumn---Pink-2-3-hex { color: #EB7084; }
-.Copia-de-Soft-Autumn---Pink-2-4-hex { color: #C34960; }
-.Copia-de-Soft-Autumn---Pink-2-5-hex { color: #852A39; }
-.pink-texture-1-hex { color: #F2CED1; }
-.pink-texture-2-hex { color: #59514F; }
-.pink-texture-3-hex { color: #8C8584; }
-.pink-texture-4-hex { color: #F2ECEB; }
-.pink-texture-5-hex { color: #F2DCDC; }
+--Montserrat: 'Montserrat', sans-serif;
+--Nunito: 'Nunito', sans-serif;
+--Global-background : #f2ded5;
+--nav-link: #C34960; 
+--link-hover-color: #852A39; 
+--text-color-link: #59514F; 
+--text-color: #8C8584; 
+/* color: #F2CED1; 
+color: #F2ECEB; 
+color: #F2DCDC; 
+color: #F2CED1;  */
 }
 
 .wrapper{
-    background-color: #F1D4DA;
-    font-family: 'Montserrat', sans-serif ;
+    background-color: var(--Global-background);
+    font-family: var(--Montserrat);
     display: flex;
     flex-direction: column;
 }
@@ -32,18 +31,18 @@
 
 .navbar__item-link{
     margin: 15px;
-    color: #C34960;
+    color: var(--nav-link);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navbar__item-link:active{
-    color:#852A39
+    color: var(--link-hover-color);
 }
 
 .navbar__item-link:hover{
-    color:#852A39;
-    font-size: 23px;
+    color: var(--link-hover-color);
+    font-size: 19px;
 }
 
 .breakline{
@@ -73,13 +72,13 @@ justify-content: space-between;
     font-weight: 500;
     margin-top: 2%;
     letter-spacing: 2px;
-    color: #59514F;
+    color: var(--text-color-link);
     font-size: 30px;
 }
 
 .aboutme__text {
-    color: rgb(140, 133, 132);
-    font-family: 'Nunito', sans-serif;
+    color:var(--text-color);
+    font-family: --Nunito;
     line-height: 2;
     font-size: 21px;
     text-align: center;
@@ -87,12 +86,12 @@ justify-content: space-between;
 }
 
 .aboutme__link{
-    color:#59514F;
+    color:var(--text-color-link);
     text-decoration: none;
 }
 
 .aboutme__link:hover{
-    color:#C34960;
+    color:var(--link-hover-color);
 }
 
 .aboutme__link:active{
@@ -108,7 +107,12 @@ justify-content: space-between;
 
 .footer__text, .footer__link{
     display: contents;
-    color:#59514F;
+    color: var(--text-color-link);
     font-size: 18px;
     text-decoration: none;
+}
+
+.footer__link:hover{
+    color: var(--link-hover-color);
+    font-size: 19px;
 }
