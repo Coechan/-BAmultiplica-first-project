@@ -60,11 +60,11 @@ justify-content: space-between;
 
 .aboutme__image{
     margin-top: 5%;
-    background-image: url(../images/about-me4.JPG);
+    background-image: url(../images/about-me1.JPG);
     height: 300px;
     width: 300px;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     border-radius:100% ;
 }
