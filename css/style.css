@@ -6,14 +6,15 @@
 --link-hover-color: #852A39; 
 --text-color-link: #59514F; 
 --text-color: #8C8584; 
-/* color: #F2CED1; 
+color: #F2CED1; 
 color: #F2ECEB; 
 color: #F2DCDC; 
-color: #F2CED1;  */
+color: #F2CED1; 
 }
 
 .wrapper{
-    background-color: var(--Global-background);
+    background: linear-gradient(#facac2 , #f9b4a7 );
+    /* background-color: var(--Global-background); */
     font-family: var(--Montserrat);
     display: flex;
     flex-direction: column;
@@ -118,7 +119,7 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2% 25%;
+    margin: 4% 25%;
 }
 
 .footer__text, .footer__link{
