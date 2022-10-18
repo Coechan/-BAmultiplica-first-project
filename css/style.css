@@ -19,9 +19,25 @@ color: #F2CED1;  */
     flex-direction: column;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-left: 2%;
+    color: var(--text-color-link);
+    width: 10%;
+}
+
 .navbar{
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 
 .navbar__item{
