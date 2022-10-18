@@ -13,7 +13,8 @@ color: #F2CED1;
 }
 
 .wrapper{
-    background: linear-gradient(#facac2 , #f9b4a7 );
+    background: linear-gradient(#f8d9d3 , #f9b4a7 );
+    /* background: linear-gradient(#facac2 , #f9b4a7 ); */
     /* background-color: var(--Global-background); */
     font-family: var(--Montserrat);
     display: flex;
