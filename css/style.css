@@ -132,3 +132,38 @@ justify-content: space-between;
     color: var(--link-hover-color);
     font-size: 19px;
 }
+
+
+@media screen and (max-width:480px) {
+
+    .header__title{
+        display: none;
+    }
+
+    .navbar{
+        margin-top: 2%;
+        justify-content: center;
+    }
+
+    .breakline{
+        margin-top: 5%;
+    }
+
+    .aboutme__title{
+        font-size: 20px;
+    }
+
+    .aboutme__text{
+        font-size: 17px;
+    }
+
+    .footer{
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .footer__element{
+        margin-top: 5%;
+    }
+    
+}
