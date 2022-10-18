@@ -1,0 +1,114 @@
+:root{
+{Montserrat: 'Montserrat', sans-serif;}
+{Nunito: 'Nunito', sans-serif;}
+.Copia-de-Soft-Autumn---Pink-2-1-hex { color: #FDC0C7 }
+.Copia-de-Soft-Autumn---Pink-2-2-hex { color: #FFA6B2; }
+.Copia-de-Soft-Autumn---Pink-2-3-hex { color: #EB7084; }
+.Copia-de-Soft-Autumn---Pink-2-4-hex { color: #C34960; }
+.Copia-de-Soft-Autumn---Pink-2-5-hex { color: #852A39; }
+.pink-texture-1-hex { color: #F2CED1; }
+.pink-texture-2-hex { color: #59514F; }
+.pink-texture-3-hex { color: #8C8584; }
+.pink-texture-4-hex { color: #F2ECEB; }
+.pink-texture-5-hex { color: #F2DCDC; }
+}
+
+.wrapper{
+    background-color: #F1D4DA;
+    font-family: 'Montserrat', sans-serif ;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__item{
+    margin: 0.5% 1%;
+    list-style-type: none;
+}
+
+.navbar__item-link{
+    margin: 15px;
+    color: #C34960;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar__item-link:active{
+    color:#852A39
+}
+
+.navbar__item-link:hover{
+    color:#852A39;
+    font-size: 23px;
+}
+
+.breakline{
+    border: 0.5px solid #59514F;
+  
+}
+
+.aboutme{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.aboutme__image{
+    margin-top: 5%;
+    background-image: url(../images/about-me4.JPG);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:100% ;
+}
+
+.aboutme__title{
+    font-weight: 500;
+    margin-top: 2%;
+    letter-spacing: 2px;
+    color: #59514F;
+    font-size: 30px;
+}
+
+.aboutme__text {
+    color: rgb(140, 133, 132);
+    font-family: 'Nunito', sans-serif;
+    line-height: 2;
+    font-size: 21px;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.aboutme__link{
+    color:#59514F;
+    text-decoration: none;
+}
+
+.aboutme__link:hover{
+    color:#C34960;
+}
+
+.aboutme__link:active{
+    color:#FFA6B2;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 25%;
+}
+
+.footer__text, .footer__link{
+    display: contents;
+    color:#59514F;
+    font-size: 18px;
+    text-decoration: none;
+}
