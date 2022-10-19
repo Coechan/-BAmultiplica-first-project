@@ -19,12 +19,18 @@ color: #F2CED1;
     font-family: var(--Montserrat);
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #f8d9d3;
+    width: 100%;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
 
 .header__title{
@@ -34,6 +40,10 @@ color: #F2CED1;
     margin-left: 2%;
     color: #f78273 ;
     width: 10%;
+    float: left;
+    display: block;
+    
+  
 }
 
 .navbar{
@@ -52,6 +62,10 @@ color: #F2CED1;
     color: var(--nav-link);
     text-decoration: none;
     font-size: 18px;
+    float: left;
+    display: block;
+
+   
 }
 
 .navbar__item-link:active{
@@ -65,6 +79,9 @@ color: #F2CED1;
 
 .breakline{
     border: 0.5px solid #eca091 ;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
   
 }
 
