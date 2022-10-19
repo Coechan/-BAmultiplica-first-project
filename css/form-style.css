@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    background-color: #F2ECEB;
+    background-color:#feebc1;
     border-radius: 10px;
     width: 35%;
     margin: 2% 0;
@@ -59,10 +59,11 @@
     padding: 2%;
 }
 
-.form__textarea::placeholder{
+.form__textarea::placeholder ,  .form__input::placeholder {
     font-size: 20px;
     font-family: var(--Nunito);
     color: var(--text-color-link);
+    color:#821318;
 }
 
 .form__button{
@@ -91,6 +92,7 @@
 
     .form__textarea::placeholder ,  .form__input::placeholder {
         font-size: 15px;
+        color:#821318;
     }
 
 
