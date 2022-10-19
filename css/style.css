@@ -20,7 +20,6 @@ color: #F2CED1;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
 
 .header{
@@ -32,6 +31,7 @@ color: #F2CED1;
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
+    border-bottom:0.5px solid #eca091 ;
 }
 
 .header__title{
@@ -43,8 +43,6 @@ color: #F2CED1;
     width: 10%;
     float: left;
     display: block;
-    
-  
 }
 
 .navbar{
@@ -65,12 +63,6 @@ color: #F2CED1;
     font-size: 18px;
     float: left;
     display: block;
-
-   
-}
-
-.navbar__item-link:active{
-    color: var(--link-hover-color);
 }
 
 .navbar__item-link:hover{
@@ -78,21 +70,13 @@ color: #F2CED1;
     font-size: 19px;
 }
 
-.breakline{
-    border: 0.5px solid #eca091 ;
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0;
-  
-}
-
-    .aboutme{
+.aboutme{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 2%;
-    }
+}
 
 .aboutme__image{
     margin-top: 5%;
@@ -172,10 +156,6 @@ color: #F2CED1;
     .navbar{
         margin-top: 4%;
         justify-content: center;
-    }
-
-    .breakline{
-        margin-top: 5%;
     }
 
     .aboutme__title{
