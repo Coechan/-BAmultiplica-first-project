@@ -131,6 +131,7 @@ color: #F2CED1;
     color: var(--text-color-link);
     font-size: 18px;
     text-decoration: none;
+    
 }
 
 .footer__link:hover{

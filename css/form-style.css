@@ -65,6 +65,7 @@
     font-family: var(--Nunito);
     color: var(--text-color-link);
     color:#821318;
+    opacity: 0.5;
 }
 
 .form__button{
